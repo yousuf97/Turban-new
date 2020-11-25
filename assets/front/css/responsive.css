@@ -1,0 +1,364 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+.header-button {
+	float: left;
+	margin-right: 8px;
+}
+.header-padding {
+	padding: 0 25px;
+}
+.header3 .sticky {
+	padding: 0 25px;
+}
+.header-top-area.header-2.pr-60.pl-60 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.header-right li {
+	margin-right: 15px;
+}
+.single-slider.pt-300 {
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.header-button {
+	margin-right: 14px;
+}
+.header-2 {
+	padding: 0 30px;
+}
+.service-text p {
+	padding: 0;
+}
+.footer-link li {
+	display: flex;
+}
+.header-padding {
+	padding: 0 20px;
+}
+.slider-text h1 {
+	font-size: 90px;
+}
+.special-menu-active .owl-nav div {
+	left: -30px;
+}
+.special-menu-active .owl-nav div.owl-next {
+	left: auto;
+	right: -30px;
+}
+.singles-menu .special-menu-text p {
+	padding-right: 0;
+}
+.news-text p {
+	font-size: 14px;
+	line-height: 26px;
+}
+.news-text h3 {
+	font-size: 22px;
+	line-height: 32px;
+}
+.news-text {
+	margin-top: 0;
+}
+.news-text > a {
+	margin-top: 12px;
+}
+.sidebar-tad li a {
+	padding: 8px 16px;
+}
+.update-cart > a {
+	margin-left: 0;
+	padding: 14px 16px;
+	margin-bottom: 10px;
+}
+.service2-area {
+	margin-top: 100PX;
+}
+.header3 .sticky {
+	padding: 0 20px;
+}
+.header3 .sticky {
+	padding: 0 15px;
+}
+.header-button {
+	display: none;
+}
+
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.footer-link li {
+	display: flex;
+}
+.single-slider {
+	padding: 200px 0;
+}
+.slider-content h1 {
+	font-size: 50px;
+	line-height: 50px;
+}
+.service-text p {
+	padding: 0;
+}
+.header-padding {
+	padding: 0 15px;
+}
+.special-menu-active .owl-nav div {
+	left: 0;
+	font-size:50px;
+}
+.special-menu-active .owl-nav div.owl-next {
+	left: auto;
+	right: 0;
+}
+.staffs-title p {
+	padding: 0;
+}
+.slider-text h1 {
+	font-size: 57px;
+}
+.update-cart > a {
+	margin-left: 0;
+	margin-right: 10px;
+}
+.update-cart {
+	margin-top: 20px;
+}
+.header-transparent .mean-container a.meanmenu-reveal {
+	border: 1px solid #fff;
+	color: #fff;
+}
+.header-transparent .mean-container a.meanmenu-reveal span {
+	background: #fff;
+}
+.header-transparent .sticky  .mean-container a.meanmenu-reveal {
+	border: 1px solid #444;
+	color: #444;
+}
+.header-transparent .sticky .mean-container a.meanmenu-reveal span {
+	background: #444;
+}
+.header2-text {
+	margin-right: 14px;
+}
+.slider-info h1 {
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+.service2-area {
+	margin-top: 100px;
+}
+.slider2 .slider-active .slick-dots {
+	bottom: 60px;
+}
+
+
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.header-2 {
+	padding: 0 0 0 0;
+}
+.footer-link li {
+	display: flex;
+}
+.single-slider {
+	padding: 150px 0;
+}
+.slider-content h1 {
+	font-size: 26px;
+	line-height: 30px;
+	margin-top: 10px;
+}
+.service-text p {
+	padding: 0;
+}
+.slider-button {
+	margin-top: 30px;
+}
+.slider-button > a.btn {
+	margin-right:0;
+}
+.slider-video {
+	margin-top: 15px;
+}
+.section-title h1 {
+	font-size: 35px;
+}
+.special-menu-img {
+	float: none;
+	margin-right: 0;
+}
+.header-padding {
+	padding: 0 0;
+}
+.slider-text h1 {
+	font-size: 30px;
+	padding: 0;
+	margin-bottom: 25px;
+}
+.slider-text a.btn {
+	padding: 17px 33px 17px 33px;
+}
+.singles-menu .special-menu-text p {
+	padding-right: 0;
+}
+.special-menu-active .owl-nav div {
+	left: 0;
+	font-size:50px;
+}
+.special-menu-active .owl-nav div.owl-next {
+	left: auto;
+	right: 0;
+}
+.staffs-title p {
+	padding: 0;
+}
+.benefits-tab li a {
+	margin-right: 22px;
+}
+.pro-commnets-text > p {
+	padding-right: 0;
+}
+.product-title h1 {
+	font-size: 40px;
+}
+.product-tab .nav-link {
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+.product-zoom-img .tab-content {
+	margin-left: 0;
+}
+.product-tab {
+	float: none;
+	width: auto;
+}
+.review-tab .nav-item {
+	margin-right: 25px;
+}
+.review-tab .nav-link {
+	font-size: 20px;
+}
+.coupon-left input {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.coupon-left button {
+	margin-left: 0;
+}
+.update-cart {
+	margin-top: 20px;
+}
+.update-cart > a {
+	margin-left: 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.user-share {
+	float: none;
+}
+.user-text {
+	margin-bottom: 10px;
+}
+.user-text a {
+	margin-right: 5px;
+	padding: 6px 10px;
+}
+.replay-comment {
+	padding-left: 5px;
+}
+.comment-img {
+	float: none;
+}
+.comment-text {
+	padding-left: 0;
+	margin-top: 12px;
+}
+.breadcrumb-text h1 {
+	font-size: 35px;
+}
+.benefits-section h1 {
+	font-size: 48px;
+}
+.special-menu-tab li a {
+	margin-right: 20px;
+}
+.special-menu-text p {
+	padding-right: 0;
+}
+.gallery-text span {
+	font-size: 14px;
+}
+.header-transparent .mean-container a.meanmenu-reveal {
+	border: 1px solid #fff;
+	color: #fff;
+}
+.header-transparent .mean-container a.meanmenu-reveal span {
+	background: #fff;
+}
+.header2-text {
+	margin-right: 14px;
+}
+.slider-info span {
+	letter-spacing: 3px;
+}
+.header-transparent .sticky  .mean-container a.meanmenu-reveal {
+	border: 1px solid #444;
+	color: #444;
+}
+.header-transparent .sticky .mean-container a.meanmenu-reveal span {
+	background: #444;
+}
+.slider-info h1 {
+	margin-bottom: 20px;
+	font-size: 38px;
+}
+.slider-info-button a.active {
+	margin-right: 0;
+	margin-bottom: 15px;
+}
+.service2-area {
+	margin-top: 100px;
+}
+.header3 .sticky {
+	padding: 0 0;
+}
+.logo {
+	margin-top: 20px;
+}
+.mean-container a.meanmenu-reveal {
+	margin-top: -34px;
+}
+.extra-info {
+	display: none;
+}
+
+
+
+
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ .slider-button > a.btn {
+	margin-right: 10px;
+}
+}
