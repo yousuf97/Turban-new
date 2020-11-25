@@ -1,6 +1,3 @@
-	
-		
-
  <!-- about part start-->
  <section class="about_part about_bg">
 	<div class="container-fluid">
@@ -22,19 +19,7 @@
                     <p>Mughlai cuisine, the flavoursome, royal culinary wonders of the Indo-Persian cultural richness from the Medieval era, has gotten it’s new flag bearer-‘Turban’.</p>
 
                     <p> The slow-cooked scrumptious fine-blend of rice, meat, dairy, breads and much more are sure to take you on a extravagant journey of taste. Step into the world of unique spicy delicacies with us.</p>
-					<a href="about1" class="special-menu-button" style="
-    background: #bf9410;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 600;
-    display: inline-block;
-    padding: 18px 30px;
-    letter-spacing: 1px;
-    line-height: 1;
-    transition: 3s;
-">Read More </a>
-				
-										
+					
 				</div>
 			</div>
 		</div>

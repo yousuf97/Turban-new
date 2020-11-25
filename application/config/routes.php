@@ -64,6 +64,7 @@ $route['checkout']='Frontend/checkout';
 $route['login']='Frontend/login';
 $route['register']='Frontend/register';
 $route['res']='Frontend/res';
+$route['about1']='Frontend/about1';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

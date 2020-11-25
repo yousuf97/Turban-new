@@ -14,9 +14,13 @@
 								</div>
 								<div class="footer-icon">
 									<a href="#"><i class="fab fa-twitter"></i></a>
-									<a href="#"><i class="fab fa-linkedin"></i></a>
+									
 									<a href="#"><i class="fab fa-facebook"></i></a>
-									<a href="#"><i class="fab fa-skype"></i></a>
+					<a href="https://www.google.com.qa/search?trk=https://www.google.com/appserve/mkt/p/AD-FnEz3EIHCgu9qZFCCqfdU-XuA5cn0geGSOIhPzPEtxLgCuJi2_WIbsinxpXZa00crjY104ZHsCmoEXGwoGZOuxmtgy48wxw&q=Turban+Mughal+Restaurant&ludocid=2476842874072112011&lsig=AB86z5VlW_7JUU01MSoLkUdNLTGK">
+						<i class="fab fa-google"></i>
+					</a>
+									
+									<a href="https://instagram.com/turbanchennai?igshid=uk2dinchscob"><i class="fab fa-instagram"></i></a>
 								</div>
 							</div>
 						</div>
@@ -45,11 +49,11 @@
 						</div>
 						<div class="col-xl-3 col-lg-3 col-md-6">
 							<div class="footer-wrapper mb-30" style=" width: 330px; padding-left: 60px;">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.2155532243505!2d51.514962115666776!3d25.162198539292994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45cd4c401a9a41%3A0xe9fb6127e3c81dbc!2sNIZAMI%20Caf%C3%A9!5e0!3m2!1sen!2sqa!4v1601968736534!5m2!1sen!2sqa" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15543.498626998182!2d80.2932779!3d13.1071261!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x225f837899869b8b!2sTurban Mughal Restaurant!5e0!3m2!1sen!2sqa!4v1606292893622!5m2!1sen!2sqa" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 								
 								<ul class="footer-link">
-									<li><i class="fas fa-home"></i>Bramley Rd, London W10 6SZ</li>
-									<li><i class="fas fa-phone"></i>+44 1234 358 759</li>
+									<li><i class="fas fa-home"></i>50, West Madha Church Road, Royapuram, Chennai, India</li>
+									<li><i class="fas fa-phone"></i>+91 95 66 270268</li>
 									<li><i class="far fa-envelope"></i>contact@Turban.com</li>
 								</ul>
 							</div>
@@ -96,7 +100,7 @@
         <script src="assets/front/js/waypoints.min.js"></script>
         <script src="assets/front/js/jquery.counterup.min.js"></script>
         <script src="assets/front/js/bootstrap.min.js"></script>
-		<!-- <script src="assets/front/js/owl.carousel.min.js"></script> -->
+		<script src="assets/front/js/owl.carousel.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
         <script src="assets/front/js/jquery.nice-select.min.js"></script>
         <script src="assets/front/js/jquery.meanmenu.min.js"></script>

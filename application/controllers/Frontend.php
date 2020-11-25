@@ -19,6 +19,9 @@ class Frontend extends Admin_Controller
     }
 	function about() {
 		$this->template->load('main2','front_end/about');
+    }
+    function about1() {
+		$this->template->load('main2','front_end/about1');
 	}
 	function chefs() {
 		$this->template->load('main2','front_end/chefs');
@@ -34,6 +37,9 @@ class Frontend extends Admin_Controller
     }
     function res() {
         $this->template->load('main2','front_end/res');
+    }
+    function menu_bkup() {
+        $this->template->load('main2','front_end/menu_bkup');
     }
 	/*function single_blog() {
 		$this->template->load('main2','front_end/single_blog');

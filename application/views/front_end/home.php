@@ -17,7 +17,7 @@
 										</ul>
 									</div>
 									<div class="slider-button">
-										<a href="shop.php" data-animation="fadeInLeft" data-delay=".8s" href="#" class="btn">Explore Menu</a>
+										<a href="menu" data-animation="fadeInLeft" data-delay=".8s" href="menu" class="btn">Explore Menu</a>
 										<div class="slider-video" data-animation="fadeInRight" data-delay="1s">
 										<a class="popup-video" href="https://www.youtube.com/watch?v=2D3bZE5pXEE" tabindex="0" style="color: black;"><i class="fas fa-play"></i></a>
 											<span style="color: black">Watch The Overview</span>

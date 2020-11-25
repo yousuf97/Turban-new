@@ -25,6 +25,16 @@
 		<link rel="stylesheet" href="assets/front/css/default.css">
 		<link rel="stylesheet" href="assets/front/css/style.css">
 		<link rel="stylesheet" href="assets/front/css/responsive.css">
+		<style>
+		.owl-dots
+		{
+			display:none;
+		}	
+		.owl-item li
+		{
+			width:auto !important;
+		}
+</style>
 	</head>
     <body>
         <!--[if lte IE 9]>
@@ -160,16 +170,17 @@
 					</a>
 				</div>
 				<div class="social-icon-right mt-20">
-					<a href="#">
-						<i class="fab fa-facebook-f"></i>
-					</a>
-					<a href="#">
+					
+					<a href="">
 						<i class="fab fa-twitter"></i>
 					</a>
 					<a href="#">
-						<i class="fab fa-google-plus-g"></i>
+						<i class="fab fa-facebook-f"></i>
 					</a>
-					<a href="#">
+					<a href="https://www.google.com.qa/search?trk=https://www.google.com/appserve/mkt/p/AD-FnEz3EIHCgu9qZFCCqfdU-XuA5cn0geGSOIhPzPEtxLgCuJi2_WIbsinxpXZa00crjY104ZHsCmoEXGwoGZOuxmtgy48wxw&q=Turban+Mughal+Restaurant&ludocid=2476842874072112011&lsig=AB86z5VlW_7JUU01MSoLkUdNLTGK">
+						<i class="fab fa-google"></i>
+					</a>
+					<a href="https://instagram.com/turbanchennai?igshid=uk2dinchscob">
 						<i class="fab fa-instagram"></i>
 					</a>
 				</div>

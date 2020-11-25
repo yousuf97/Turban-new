@@ -18,35 +18,44 @@
 		<div class="special-menu-area pb-100">
 			<div class="container">
 				<div class="row">
+					
 					<div class="col-xl-12">
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-xl-12">
-						<ul class="nav special-menu-tab justify-content-center mb-50" id="myTab2" role="tablist">
+					
+					<ul class="nav special-menu-tab justify-content-center mb-50" id="myTab2" role="tablist">
+					<div class="container">
+				<div class="row justify-content-between">
+					<div class="brand-active owl-carousel"
+					class="carousel slide"data-interval="false">
+					
+
 							
-						  <li class="nav-item">
-							<a class="nav-link active" id="home1-tab" data-toggle="tab" href="#home1">all</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link" id="profile1-tab" data-toggle="tab" href="#profile1">BREAKFAST</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link" id="contact11-tab" data-toggle="tab" href="#contact11"> SOUP </a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link" id="contact22-tab" data-toggle="tab" href="#contact22">  GRILL </a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link" id="contact33-tab" data-toggle="tab" href="#contact33"> PASTA   </a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link" id="contact44-tab" data-toggle="tab" href="#contact44"> PIZZA   </a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link" id="contact4-tab" data-toggle="tab" href="#contact4"> DRINK  </a>
-						  </li>
+						<?php 
+						
+foreach($categs as $key=>$value)
+{
+	$where="category_id=".$value->id;
+	$sub_cat=$this->Model_getrows->get_menu('*','sub_category',$where);
+	foreach($sub_cat as $ky=>$val)
+	{
+		?>
+		<li class="nav-item">
+			<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home<?php echo $ky;?> "><?php echo $val->name;?></a>
+		</li>
+	<?php	
+	}
+						  
+}
+?>
+					</div>
+					</div>	
+					</div>
+						  
 						</ul>
+						
 						<div class="tab-content" id="myTabContent2">
 							<div class="tab-pane fade show active" id="home1" role="tabpanel" aria-labelledby="home1-tab">
 								<div class="row">

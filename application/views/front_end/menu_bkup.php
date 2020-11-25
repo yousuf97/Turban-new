@@ -1,338 +1,609 @@
-<!-- breadcrumb start-->
-<section class="breadcrumb breadcrumb_bg">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="breadcrumb_iner text-center">
-					<div class="breadcrumb_iner_item">
-						<h2>Food Menu</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- breadcrumb start-->
-
-<!--::chefs_part start::-->
-<!-- food_menu start-->
-<section class="food_menu gray_bg">
-	<div class="container">
-		<div class="row justify-content-between">
-			<div class="col-lg-5">
-				<div class="section_tittle">
-					<p>Popular Menu</p>
-					<h2>Delicious Food Menu</h2>
-				</div>
-			</div>
-			<div class="col-lg-6">
-				<div class="nav nav-tabs food_menu_nav" id="myTab" role="tablist">
-					<a class="active" id="Special-tab" data-toggle="tab" href="#Special" role="tab"
-						aria-controls="Special" aria-selected="false">Special <img src="front/img/icon/play.svg"
-							alt="play"></a>
-					<a id="Breakfast-tab" data-toggle="tab" href="#Breakfast" role="tab" aria-controls="Breakfast"
-						aria-selected="false">Breakfast <img src="front/img/icon/play.svg" alt="play"></a>
-					<a id="Launch-tab" data-toggle="tab" href="#Launch" role="tab" aria-controls="Launch"
-						aria-selected="false">Launch <img src="front/img/icon/play.svg" alt="play"></a>
-					<a id="Dinner-tab" data-toggle="tab" href="#Dinner" role="tab" aria-controls="Dinner"
-						aria-selected="false">Dinner <img src="front/img/icon/play.svg" alt="play"> </a>
-					<a id="Sneaks-tab" data-toggle="tab" href="#Sneaks" role="tab" aria-controls="Sneaks"
-						aria-selected="false">Sneaks <img src="front/img/icon/play.svg" alt="play"></a>
-				</div>
-			</div>
-			<div class="col-lg-12">
-				<div class="tab-content" id="myTabContent">
-					<div class="tab-pane fade show active single-member" id="Special" role="tabpanel"
-						aria-labelledby="Special-tab">
-						<div class="row">
-							<div class="col-sm-6 col-lg-6">
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_1.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Pork Sandwich</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_2.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Roasted Marrow</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_3.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Summer Cooking</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6 col-lg-6">
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_4.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Easter Delight</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_5.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Tiener Schnitze</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_6.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Chicken Roast</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tab-pane fade single-member" id="Breakfast" role="tabpanel"
-						aria-labelledby="Breakfast-tab">
-						<div class="row">
-							<div class="col-sm-6 col-lg-6">
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_4.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Easter Delight</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_5.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Tiener Schnitze</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_6.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Chicken Roast</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6 col-lg-6">
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_1.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Pork Sandwich</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_2.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Roasted Marrow</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_3.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Summer Cooking</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tab-pane fade single-member" id="Launch" role="tabpanel"
-						aria-labelledby="Launch-tab">
-						<div class="row">
-							<div class="col-sm-6 col-lg-6">
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_1.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Pork Sandwich</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_2.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Roasted Marrow</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_3.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Summer Cooking</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6 col-lg-6">
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_4.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Easter Delight</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_5.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Tiener Schnitze</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_6.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Chicken Roast</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-					<div class="tab-pane fade single-member" id="Dinner" role="tabpanel"
-						aria-labelledby="Dinner-tab">
-						<div class="row">
-							<div class="col-sm-6 col-lg-6">
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_4.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Easter Delight</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_5.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Tiener Schnitze</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_6.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Chicken Roast</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6 col-lg-6">
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_1.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Pork Sandwich</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_2.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Roasted Marrow</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_3.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Summer Cooking</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-					<div class="tab-pane fade single-member" id="Sneaks" role="tabpanel"
-						aria-labelledby="Sneaks-tab">
-						<div class="row">
-							<div class="col-sm-6 col-lg-6">
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_1.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Pork Sandwich</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_2.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Roasted Marrow</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_3.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Summer Cooking</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6 col-lg-6">
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_4.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Easter Delight</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_5.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Tiener Schnitze</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-								<div class="single_food_item media">
-									<img src="front/img/food_menu/single_food_6.png" class="mr-3" alt="...">
-									<div class="media-body align-self-center">
-										<h3>Chicken Roast</h3>
-										<p>They're wherein heaven seed hath nothing</p>
-										<h5>$40.00</h5>
-									</div>
-								</div>
-							</div>
+<!-- breadcrumb-area-start -->
+<div class="breadcrumb-area pt-45 pb-45" style="
+    background-color: #ddd;">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						<div class="breadcrumb-text text-center">
+							<h1>Menu</h1>
+							<span>CHECK OUT OUR MENU</span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
-<!-- food_menu part end-->
-<!--::chefs_part end::-->
+		<!-- breadcrumb-area-end -->
+
+		<!-- special-menu-area-start -->
+		<div class="special-menu-area pb-100">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-12">
+						<ul class="nav special-menu-tab justify-content-center mb-50" id="myTab2" role="tablist">
+						</ul>
+						<div class="tab-content" id="myTabContent2">
+							<div class="tab-pane fade show active" id="home1" role="tabpanel" aria-labelledby="home1-tab">
+								<div class="row">
+									<div class="col-xl-6 col-lg-6 col-md-12">
+										<div class="special-menu-wrapper mb-30">
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/1.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$11.95</span>
+													</div>
+													<h4>Special Wonthan</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/2.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$13.95</span>
+													</div>
+													<h4>Chicken Ball </h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/3.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$15.95</span>
+													</div>
+													<h4>Prawn toast</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-6 col-lg-6 col-md-12">
+										<div class="special-menu-wrapper mb-30">
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/4.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$18.95</span>
+													</div>
+													<h4>French Fry</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/5.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$21.95</span>
+													</div>
+													<h4>Vegetable Pakura </h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/6.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$9.95</span>
+													</div>
+													<h4>Cheese cake</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="special-menu-button text-center pt-40">
+											<a href="menu">LOAD MORE</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="profile1" role="tabpanel" aria-labelledby="profile1-tab">
+								<div class="row">
+									<div class="col-xl-6 col-lg-6 col-md-12">
+										<div class="special-menu-wrapper mb-30">
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/1.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$11.95</span>
+													</div>
+													<h4>Special Wonthan</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/2.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$13.95</span>
+													</div>
+													<h4>Chicken Ball </h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/3.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$15.95</span>
+													</div>
+													<h4>Prawn toast</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-6 col-lg-6 col-md-12">
+										<div class="special-menu-wrapper mb-30">
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/4.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$18.95</span>
+													</div>
+													<h4>French Fry</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/5.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$21.95</span>
+													</div>
+													<h4>Vegetable Pakura </h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="special-menu-button text-center pt-40">
+											<a href="menu">LOAD MORE</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="contact11" role="tabpanel" aria-labelledby="contact11-tab">
+								<div class="row">
+									<div class="col-xl-6 col-lg-6 col-md-12">
+										<div class="special-menu-wrapper mb-30">
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/1.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$11.95</span>
+													</div>
+													<h4>Special Wonthan</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/2.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$13.95</span>
+													</div>
+													<h4>Chicken Ball </h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/3.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$15.95</span>
+													</div>
+													<h4>Prawn toast</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-6 col-lg-6 col-md-12">
+										<div class="special-menu-wrapper mb-30">
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/4.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$18.95</span>
+													</div>
+													<h4>French Fry</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/5.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$21.95</span>
+													</div>
+													<h4>Vegetable Pakura </h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/6.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$9.95</span>
+													</div>
+													<h4>Cheese cake</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="special-menu-button text-center pt-40">
+											<a href="menu">LOAD MORE</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="contact22" role="tabpanel" aria-labelledby="contact22-tab">
+								<div class="row">
+									<div class="col-xl-6 col-lg-6 col-md-12">
+										<div class="special-menu-wrapper mb-30">
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/1.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$11.95</span>
+													</div>
+													<h4>Special Wonthan</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/2.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$13.95</span>
+													</div>
+													<h4>Chicken Ball </h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/3.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$15.95</span>
+													</div>
+													<h4>Prawn toast</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-6 col-lg-6 col-md-12">
+										<div class="special-menu-wrapper mb-30">
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/4.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$18.95</span>
+													</div>
+													<h4>French Fry</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/5.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$21.95</span>
+													</div>
+													<h4>Vegetable Pakura </h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="special-menu-button text-center pt-40">
+											<a href="menu">LOAD MORE</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="contact33" role="tabpanel" aria-labelledby="contact33-tab">
+								<div class="row">
+									<div class="col-xl-6 col-lg-6 col-md-12">
+										<div class="special-menu-wrapper mb-30">
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/1.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$11.95</span>
+													</div>
+													<h4>Special Wonthan</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/2.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$13.95</span>
+													</div>
+													<h4>Chicken Ball </h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/3.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$15.95</span>
+													</div>
+													<h4>Prawn toast</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-6 col-lg-6 col-md-12">
+										<div class="special-menu-wrapper mb-30">
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/4.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$18.95</span>
+													</div>
+													<h4>French Fry</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/5.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$21.95</span>
+													</div>
+													<h4>Vegetable Pakura </h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/6.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$9.95</span>
+													</div>
+													<h4>Cheese cake</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="special-menu-button text-center pt-40">
+											<a href="menu">LOAD MORE</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="contact44" role="tabpanel" aria-labelledby="contact44-tab">
+								<div class="row">
+									<div class="col-xl-6 col-lg-6 col-md-12">
+										<div class="special-menu-wrapper mb-30">
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/1.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$11.95</span>
+													</div>
+													<h4>Special Wonthan</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/2.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$13.95</span>
+													</div>
+													<h4>Chicken Ball </h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/3.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$15.95</span>
+													</div>
+													<h4>Prawn toast</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-6 col-lg-6 col-md-12">
+										<div class="special-menu-wrapper mb-30">
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/4.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$18.95</span>
+													</div>
+													<h4>French Fry</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="special-menu-button text-center pt-40">
+											<a href="menu">LOAD MORE</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="contact4" role="tabpanel" aria-labelledby="contact4-tab">
+								<div class="row">
+									<div class="col-xl-6 col-lg-6 col-md-12">
+										<div class="special-menu-wrapper mb-30">
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/1.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$11.95</span>
+													</div>
+													<h4>Special Wonthan</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/2.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$13.95</span>
+													</div>
+													<h4>Chicken Ball </h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/3.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$15.95</span>
+													</div>
+													<h4>Prawn toast</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-6 col-lg-6 col-md-12">
+										<div class="special-menu-wrapper mb-30">
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/4.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$18.95</span>
+													</div>
+													<h4>French Fry</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/5.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$21.95</span>
+													</div>
+													<h4>Vegetable Pakura </h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+											<div class="single-special">
+												<div class="special-menu-img">
+													<img src="assets/front/img/special-menu/6.png" alt="" />
+												</div>
+												<div class="special-menu-text">
+													<div class="special-right">
+														<span>$9.95</span>
+													</div>
+													<h4>Cheese cake</h4>
+													<p>Blackened Chicken, Cherry Tomatoes, Green Pepper, Onion, Marinara, Mozzarella & Parmesan</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12">
+										<div class="special-menu-button text-center pt-40">
+											<a href="menu">LOAD MORE</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- special-menu-area-end -->
