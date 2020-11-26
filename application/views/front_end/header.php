@@ -34,6 +34,28 @@
 		{
 			width:auto !important;
 		}
+		.owl-nav 
+		{
+			  display: block !important;  
+		}
+		.owl-prev{
+			font-size: 3em;
+    padding: 5px;
+    position: absolute;
+    top: -20px;
+	left: -44px;
+	background-color: #ffffff;
+    border: 0;
+		}
+		.owl-next{
+			font-size: 3em;
+    padding: 5px;
+    position: absolute;
+    top: -20px;
+	right: 0;
+	background-color: #ffffff;
+    border: 0;
+		}
 </style>
 	</head>
     <body>

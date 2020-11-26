@@ -53,7 +53,26 @@ foreach($categs as $key=>$value)
 					</div>
 					</div>	
 					</div>
-						  
+					<!-- <div class="owl-nav ">
+					<button type="button" role="presentation" class="owl-prev">
+						<span aria-label="Previous" style="
+    font-size: 3em;
+    padding: 5px;
+    position: absolute;
+    top: -14px;
+    left: -44px;
+">‹</span>
+</button>
+<button type="button" role="presentation" class="owl-next">
+	<span aria-label="Next" style="
+    font-size: 3em;
+    padding: 5px;
+    position: absolute;
+    top: -14px;
+    right: 0;
+">›</span>
+</button>
+</div> -->
 						</ul>
 						
 						<div class="tab-content" id="myTabContent2">
