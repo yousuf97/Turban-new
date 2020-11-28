@@ -1,5 +1,8 @@
 <!--::regervation_part start::-->
-<section class="regervation_part section_padding" id="regervation_part">
+<section class="regervation_part section_padding" id="regervation_part" style="
+    padding-bottom: 60px;
+    padding-top: 60px;
+">
         <div class="container">
             <div class="row">
                 <div class="col-xl-5">
@@ -7,6 +10,7 @@
                         <p>Reservation</p>
                         <h2>Book A Table</h2>
                     </div>
+                    <br>
                 </div>
             </div>
             <div class="row">
@@ -28,7 +32,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <div class="input-group date">
-                                        <input name="dt" id="datepicker" type="text" class="form-control" placeholder="Date *" / required>
+                                        <input name="dt" id="datepicker" type="text" class="form-control" placeholder="Date *"  required>
                                     </div>
                                 </div>
                                 <div class="form-group col-md-6">
@@ -48,6 +52,7 @@
                                     <textarea name="message" class="form-control" id="Textarea" rows="4" placeholder="Your Note *"></textarea>
                                 </div>
                             </div>
+                            <br>
                             <div class="regerv_btn">
 								<input id="reservesubmitBtn" value="book a table" name="Confirm" type="submit" class="btn_4"/>
                             </div>

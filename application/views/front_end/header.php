@@ -56,6 +56,8 @@
 	background-color: #ffffff;
     border: 0;
 		}
+		
+		
 </style>
 	</head>
     <body>
@@ -87,30 +89,30 @@
 										<li><a href="menu">Menu</a>
 										</li>								
 										<li><a href="contact">contact</a></li>
+										
 										<li>
 										
 										<?php 
 									$user_data = $this->session->all_userdata(); #print_r($user_data); 
 									if(isset($user_data['user_id'])) {
 								?>
-									<div class="dropdown">
-									  <button class="genric-btn primary-border small dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										Hi, <?php echo $user_data['user_name']; ?>
-									  </button>
-									  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-										<a class="dropdown-item" href="logout">Logout</a>						
-									  </div>
-									</div>	
+								<li><a href="">Hi, <?php echo $user_data['user_name']; ?></a>
+								<ul class="sub-menu text-left">
+									<li><a href="Auth/logout">Logout</a></li>
+								
+								</ul>
+							</li>
+									
 								<?php } else {?>
-									<div class="dropdown">
-									  <button class="genric-btn primary-border small dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #888484;">
-										Account
-									  </button>
-									  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-										<a class="dropdown-item" href="register">Register</a>
-										<a class="dropdown-item" href="login">Login</a>						
-									  </div>
-									</div>
+									<li><a>Account &nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+									
+								<ul class="sub-menu text-left">
+									<li><a href="register">Register</a></li>
+									<li><a href="login">Login</a></li>
+
+								</ul>
+							</li>
+									
 								<?php } ?>
 								</li>
 									</ul>

@@ -6,7 +6,7 @@
 					   <div class="row ">
 						   <div class="col-xl-12">
 								<div class="slider-content text-center">
-									<span data-animation="fadeInUp" data-delay=".2s"style="color: black;animation-delay: 0.2s;">Why do something you don’t like?</span>
+									<span data-animation="fadeInUp" data-delay=".2s"style="color: black;animation-delay: 0.2s;"></span>
 									<h1 data-animation="fadeInUp" data-delay=".4s"style="color: black;animation-delay: 0.4s;">Step into the world of unique spicy delicacies with us.</h1>
 									<div class="slider-link" data-animation="fadeInUp" data-delay=".6s">
 										<ul>
