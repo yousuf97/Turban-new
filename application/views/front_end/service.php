@@ -9,7 +9,7 @@
 							</div>
 							<div class="service-text service-text2">
 								<h3>We cook with passion</h3>
-								<p></p>
+								<p>Experience an outstanding and unique quality of taste</p>
 							</div>
 						</div>
 					</div>
@@ -20,7 +20,7 @@
 							</div>
 							<div class="service-text service-text2">
 								<h3>Book a table online</h3>
-								<p></p>
+								<p>Have a memorable dining experience with us</p>
 							</div>
 						</div>
 					</div>
@@ -31,7 +31,7 @@
 							</div>
 							<div class="service-text service-text2">
 								<h3>Free and fast delivery</h3>
-								<p></p>
+								<p> Get your favourite food delivered to your doorstep</p>
 							</div>
 						</div>
 					</div>

@@ -9,7 +9,10 @@
 ">
 			<div class="col-sm-4 col-lg-5 offset-lg-1">
 				<div class="about_img">
-					<img src="assets/front/img/benefits/benefits1.jpg" alt="">
+					<img src="assets/front/img/benefits/benefits1.jpg" style="
+    width: 70%;
+    padding-top: 80px;
+">
 				</div>
 			</div>
 			<div class="col-sm-8 col-lg-4">

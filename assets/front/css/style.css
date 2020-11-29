@@ -36,9 +36,11 @@
 /* 1. Theme default css */
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700|Open+Sans:400,600,600i,800');
  body {
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
+	
 	font-weight: normal;
 	font-style: normal;
+	font-size: xx-large;
 }
 .img {
 	max-width: 100%;
@@ -140,7 +142,7 @@ p {
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
-	color: #7e7e7e;
+	color: #000;
 	margin-bottom: 15px;
 }
 hr {
@@ -289,7 +291,7 @@ label {
 	padding: 0 74px;
 }
 .header-right {
-	margin-top: 26px;
+	margin-top: 0px;
 }
 .header-button {
 	float: left;
@@ -330,7 +332,7 @@ label {
 	display: inline-block;
 	margin-right: 30px;
 	position: relative;
-	padding-bottom: 12px;
+	/* padding-bottom: 12px; */
 }
 .header-right li:last-child{margin-right:0;}
 .search-form {}
@@ -378,7 +380,16 @@ label {
 
 
 .logo {
-  margin-top: 33px;
+  margin-top: 10px;
+}
+.logo img
+{
+	position: absolute;
+    margin: auto;
+    display: block;
+    left: 0;
+    /* right: 0; */
+    top: 0px;
 }
 .main-menu-area {
   border-bottom: 1px solid #ccc9c7;
@@ -388,11 +399,11 @@ label {
 .main-menu nav > ul  > li {
 	display: inline-block;
 	position: relative;
-	padding: 35px 0;
+	padding: 0px 0;
 }
 .header-transparent .main-menu nav > ul  > li:last-child a{padding-right:0;}
 .main-menu nav > ul  > li > a {
-	color: #888484;
+	color: #000;
 	display: block;
 	font-size: 14px;
 	font-weight: 600;
@@ -412,8 +423,9 @@ label {
 .header-transparent .main-menu nav > ul > li {
 	padding: 30px 0;
 }
-.main-menu nav > ul  > li:hover > a,.main-menu nav > ul  > li.active > a{color:#2d2e32;background:#f8ecc7;}
-.header-transparent .main-menu nav > ul  > li:hover > a,.main-menu nav > ul  > li.active > a{color:#bf9410;background:none;}
+.main-menu nav > ul  > li:hover > a,.main-menu nav > ul  > li.active > a{color:#2d2e32;background:#f8ecc7;background-image: url(../../../assets/img/favicon.png);
+    background-repeat: no-repeat;}
+.header-transparent .main-menu nav > ul  > li:hover > a,.main-menu nav > ul  > li.active > a{color:#;background:none;}
 /* sub-menu */
 .main-menu nav > ul  > li .sub-menu {
   background: #ffffff none repeat scroll 0 0;
@@ -496,7 +508,7 @@ label {
 	color: #fff;
 	height: 46px;
 	width: 46px;
-	border: 2px solid #bf9410;
+	border: 2px solid #000;
 	display: inline-block;
 	text-align: center;
 	line-height: 43px;
@@ -599,7 +611,8 @@ label {
  margin: 0 4px
 }
 .slider-active .slick-dots li button {
- border:2px solid #bf9410;
+ display:none;
+	border:2px solid #bf9410;
  height: 10px;
  width: 10px;
  text-indent: -9999px;
@@ -636,7 +649,7 @@ label {
 }
 .service-text p {
 	font-size: 14px;
-	color: #696969;
+	color: #000;
 	line-height: 30px;
 	margin-bottom: 0;
 	padding: 0 20px;
@@ -660,7 +673,7 @@ label {
 .service-text2 p {
 	font-size: 16px;
 	line-height: 30px;
-	color: #7b7b7b;
+	color: #000;
 	padding:0;
 }
 /* service3-style */
@@ -690,7 +703,7 @@ label {
 	letter-spacing: 1px;
 }
 .benefits-section h1 {
-	color: #2d2e32;
+	color: #000;
 	font-size: 59px;
 	font-weight: 400;
 	line-height: 63px;
@@ -698,7 +711,7 @@ label {
 	margin-bottom: 7px;
 }
 .benefits-section p {
-	color: #7b7b7b;
+	color: #000;
 	font-size: 15px;
 	line-height: 29px;
 	margin-bottom: 0;
@@ -707,7 +720,7 @@ label {
 .benefits-tab li{}
 .benefits-tab li a {
 	padding: 0;
-	color: #7b7b7b;
+	color: #000;
 	font-size: 16px;
 	text-transform: capitalize;
 	margin-right: 49px;
@@ -1140,7 +1153,7 @@ label {
 }
 .footer-text{}
 .footer-text p {
-	color: #7b7b7b;
+	color: #000;
 	font-size: 14px;
 	line-height: 30px;
 	margin-bottom: 0;
@@ -1150,7 +1163,7 @@ label {
 	margin-top: 28px;
 }
 .footer-icon a {
-	color: #7b7b7b;
+	color: #000;
 	font-size: 16px;
 	margin-right: 18px;
 	transition: .3s;
@@ -1160,7 +1173,7 @@ label {
 .footer-icon a:hover{color:#bf9410;}
 .footer-title {
 	font-size: 24px;
-	color: #2d2e32;
+	color: #000;
 	font-weight: 700;
 	position: relative;
 	padding-bottom: 15px;
@@ -1183,7 +1196,7 @@ label {
 }
 .footer-menu li:last-child{padding-bottom:0;}
 .footer-menu li a {
-	color: #7b7b7b;
+	color: #000;
 	font-size: 14px;
 	font-weight: 400;
 	transition: .3s;
@@ -1209,7 +1222,7 @@ label {
   display: block;
 }
 .footer-img a::before {
-  background: #bf9410;
+  /* background: #bf9410; */
   content: "";
   height: 100%;
   left: 0;
@@ -1225,7 +1238,7 @@ label {
 }
 .footer-info{}
 .footer-info p {
-	color: #7b7b7b;
+	color: #000;
 	font-size: 14px;
 	line-height: 30px;
 	margin-bottom: 0;
@@ -1236,7 +1249,7 @@ label {
 }
 .footer-link li {
 	font-size: 14px;
-	color: #7b7b7b;
+	color: #000;
 	font-weight: 400;
 	padding-bottom: 12px;
 }
@@ -1250,7 +1263,7 @@ label {
 }
 .copyright{}
 .copyright p {
-	color: #7b7b7b;
+	color: #000;
 	font-size: 16px;
 	margin-bottom: 0;
 	font-weight: 400;

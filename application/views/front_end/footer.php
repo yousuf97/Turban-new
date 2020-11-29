@@ -13,14 +13,14 @@
 									<p>Step into the world of unique spicy delicacies with us. </p>
 								</div>
 								<div class="footer-icon">
-									<a href="#"><i class="fab fa-twitter"></i></a>
 									
-									<a href="#"><i class="fab fa-facebook"></i></a>
-					<a href="https://www.google.com.qa/search?trk=https://www.google.com/appserve/mkt/p/AD-FnEz3EIHCgu9qZFCCqfdU-XuA5cn0geGSOIhPzPEtxLgCuJi2_WIbsinxpXZa00crjY104ZHsCmoEXGwoGZOuxmtgy48wxw&q=Turban+Mughal+Restaurant&ludocid=2476842874072112011&lsig=AB86z5VlW_7JUU01MSoLkUdNLTGK">
+									
+									<a href="https://www.facebook.com/" target=_blank;><i class="fab fa-facebook"></i></a>
+					<a href="https://www.google.com.qa/search?trk=https://www.google.com/appserve/mkt/p/AD-FnEz3EIHCgu9qZFCCqfdU-XuA5cn0geGSOIhPzPEtxLgCuJi2_WIbsinxpXZa00crjY104ZHsCmoEXGwoGZOuxmtgy48wxw&q=Turban+Mughal+Restaurant&ludocid=2476842874072112011&lsig=AB86z5VlW_7JUU01MSoLkUdNLTGK" target=_blank;>
 						<i class="fab fa-google"></i>
 					</a>
 									
-									<a href="https://instagram.com/turbanchennai?igshid=uk2dinchscob"><i class="fab fa-instagram"></i></a>
+									<a href="https://instagram.com/turbanchennai?igshid=uk2dinchscob"target=_blank><i class="fab fa-instagram"></i></a>
 								</div>
 							</div>
 						</div>
@@ -38,23 +38,23 @@
 							<div class="footer-wrapper mb-30">
 								<h3 class="footer-title">Photostream</h3>
 								<ul class="footer-img">
-									<li><a href="#"><img alt="" src="assets/front/img/instagram/1.jpg"></a></li>
-									<li><a href="#"><img alt="" src="assets/front/img/instagram/2.jpg"></a></li>
-									<li><a href="#"><img alt="" src="assets/front/img/instagram/3.jpg"></a></li>
-									<li><a href="#"><img alt="" src="assets/front/img/instagram/4.jpg"></a></li>
-									<li><a href="#"><img alt="" src="assets/front/img/instagram/5.jpg"></a></li>
-									<li><a href="#"><img alt="" src="assets/front/img/instagram/6.jpg"></a></li>
+									<li><a><img alt="insta1" src="assets/front/img/instagram/1.jpg"></a></li>
+									<li><a><img alt="insta2" src="assets/front/img/instagram/2.jpg"></a></li>
+									<li><a><img alt="insta3" src="assets/front/img/instagram/3.jpg"></a></li>
+									<li><a><img alt="insta4" src="assets/front/img/instagram/4.jpg"></a></li>
+									<li><a><img alt="insta5" src="assets/front/img/instagram/5.jpg"></a></li>
+									<li><a><img alt="insta6" src="assets/front/img/instagram/6.jpg"></a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="col-xl-3 col-lg-3 col-md-6">
-							<div class="footer-wrapper mb-30" style=" width: 330px; padding-left: 60px;">
+							<div class="footer-wrapper mb-30" style=" width: 330px; padding-left: 100px;">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15543.498626998182!2d80.2932779!3d13.1071261!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x225f837899869b8b!2sTurban Mughal Restaurant!5e0!3m2!1sen!2sqa!4v1606292893622!5m2!1sen!2sqa" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 								
 								<ul class="footer-link">
 									<li><i class="fas fa-home"></i>50, West Madha Church Road, Royapuram, Chennai, India</li>
 									<li><i class="fas fa-phone"></i>+91 95 66 270268</li>
-									<li><i class="far fa-envelope"></i>contact@Turban.com</li>
+									<li><i class="far fa-envelope"></i>turbanchennai@gmail.com</li>
 								</ul>
 							</div>
 						</div>
@@ -91,10 +91,7 @@
 
 
 		<!-- JS here -->
-		<script
-  src="https://code.jquery.com/jquery-1.12.4.min.js"
-  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-  crossorigin="anonymous"></script>
+		<script  src="https://code.jquery.com/jquery-1.12.4.min.js"  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
         <script src="assets/front/js/vendor/modernizr-3.5.0.min.js"></script>
         <!-- <script src="assets/front/js/vendor/jquery-1.12.4.min.js"></script> -->
         <script src="assets/front/js/waypoints.min.js"></script>
@@ -102,7 +99,8 @@
         <script src="assets/front/js/bootstrap.min.js"></script>
 		<script src="assets/front/js/owl.carousel.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
-        <script src="assets/front/js/jquery.nice-select.min.js"></script>
+        <!-- <script src="assets/front/js/jquery.nice-select.min.js"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha512-NqYds8su6jivy1/WLoW8x1tZMRD7/1ZfhWG/jcRQLOzV1k1rIODCpMgoBnar5QXshKJGV7vi0LXLNXPoFsM5Zg==" crossorigin="anonymous"></script>
         <script src="assets/front/js/jquery.meanmenu.min.js"></script>
         <script src="assets/front/js/slick.min.js"></script>
         <script src="assets/front/js/ajax-form.js"></script>
@@ -114,6 +112,13 @@
         <script src="assets/front/js/plugins.js"></script>
 		<script src="assets/front/js/main.js"></script>
 		<script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+		<script src="assets/bower_components/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+		<script src="assets/bower_components/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+<script>
+$("#datepicker").datepicker();
+$("#timepicker").timepicker();
+
+</script>
     </body>
 
 </html>

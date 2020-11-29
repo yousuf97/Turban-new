@@ -11,14 +11,21 @@
 						</div>
 					</div>
 				</div>
+				<style>
+				.gallery-active .owl-prev {display:none}
+				.gallery-active .owl-next {display:none}
+				
+				
+				
+				</style>
 				<div class="gallery-active owl-carousel no-gutters">
 					<div class="gallery-item">
 						<div class="gallery-wrapper">
 							<div class="gallery-img">
 								<a class="image-link" href="assets/front/img/gallery/gallery1.jpg"><img src="assets/front/img/gallery/gallery1.jpg" alt="" /></a>
 								<div class="gallery-text">
-									<h3><a href="#">Snow Roll Uramaki</a></h3>
-									<span>Snow crab, avocado, cucumber, tobiko</span>
+									<h3><a href="#"></a></h3>
+									<span></span>
 								</div>
 							</div>
 						</div>
@@ -28,8 +35,8 @@
 							<div class="gallery-img">
 								<a class="image-link" href="assets/front/img/gallery/gallery2.jpg"><img src="assets/front/img/gallery/gallery2.jpg" alt="" /></a>
 								<div class="gallery-text">
-									<h3><a href="#">Snow Roll Uramaki</a></h3>
-									<span>Snow crab, avocado, cucumber, tobiko</span>
+									<h3><a href="#"></a></h3>
+									<span></span>
 								</div>
 							</div>
 						</div>
@@ -39,8 +46,8 @@
 							<div class="gallery-img">
 								<a class="image-link" href="assets/front/img/gallery/gallery3.jpg"><img src="assets/front/img/gallery/gallery3.jpg" alt="" /></a>
 								<div class="gallery-text">
-									<h3><a href="#">Snow Roll Uramaki</a></h3>
-									<span>Snow crab, avocado, cucumber, tobiko</span>
+									<h3><a href="#"></a></h3>
+									<span></span>
 								</div>
 							</div>
 						</div>
@@ -50,8 +57,8 @@
 							<div class="gallery-img">
 								<a class="image-link" href="assets/front/img/gallery/gallery4.jpg"><img src="assets/front/img/gallery/gallery4.jpg" alt="" /></a>
 								<div class="gallery-text">
-									<h3><a href="#">Snow Roll Uramaki</a></h3>
-									<span>Snow crab, avocado, cucumber, tobiko</span>
+									<h3><a href="#"></a></h3>
+									<span></span>
 								</div>
 							</div>
 						</div>
@@ -61,8 +68,8 @@
 							<div class="gallery-img">
 								<a href="#"><img src="assets/front/img/gallery/gallery1.jpg" alt="" /></a>
 								<div class="gallery-text">
-									<h3><a href="#">Snow Roll Uramaki</a></h3>
-									<span>Snow crab, avocado, cucumber, tobiko</span>
+									<h3><a href="#"></a></h3>
+									<span></span>
 								</div>
 							</div>
 						</div>
@@ -72,8 +79,8 @@
 							<div class="gallery-img">
 								<a class="image-link" href="assets/front/img/gallery/gallery2.jpg"><img src="assets/front/img/gallery/gallery2.jpg" alt="" /></a>
 								<div class="gallery-text">
-									<h3><a href="#">Snow Roll Uramaki</a></h3>
-									<span>Snow crab, avocado, cucumber, tobiko</span>
+									<h3><a href="#"></a></h3>
+									<span></span>
 								</div>
 							</div>
 						</div>
@@ -83,8 +90,8 @@
 							<div class="gallery-img">
 								<a class="image-link" href="assets/front/img/gallery/gallery3.jpg"><img src="assets/front/img/gallery/gallery3.jpg" alt="" /></a>
 								<div class="gallery-text">
-									<h3><a href="#">Snow Roll Uramaki</a></h3>
-									<span>Snow crab, avocado, cucumber, tobiko</span>
+									<h3><a href="#"></a></h3>
+									<span></span>
 								</div>
 							</div>
 						</div>
@@ -94,8 +101,8 @@
 							<div class="gallery-img">
 								<a class="image-link" href="assets/front/img/gallery/gallery4.jpg"><img src="assets/front/img/gallery/gallery4.jpg" alt="" /></a>
 								<div class="gallery-text">
-									<h3><a href="#">Snow Roll Uramaki</a></h3>
-									<span>Snow crab, avocado, cucumber, tobiko</span>
+									<h3><a href="#"></a></h3>
+									<span></span>
 								</div>
 							</div>
 						</div>
@@ -105,8 +112,8 @@
 							<div class="gallery-img">
 								<a class="image-link" href="assets/front/img/gallery/gallery1.jpg"><img src="assets/front/img/gallery/gallery1.jpg" alt="" /></a>
 								<div class="gallery-text">
-									<h3><a href="#">Snow Roll Uramaki</a></h3>
-									<span>Snow crab, avocado, cucumber, tobiko</span>
+									<h3><a href="#"></a></h3>
+									<span></span>
 								</div>
 							</div>
 						</div>
@@ -116,8 +123,8 @@
 							<div class="gallery-img">
 								<a class="image-link" href="assets/front/img/gallery/gallery2.jpg"><img src="assets/front/img/gallery/gallery2.jpg" alt="" /></a>
 								<div class="gallery-text">
-									<h3><a href="#">Snow Roll Uramaki</a></h3>
-									<span>Snow crab, avocado, cucumber, tobiko</span>
+									<h3><a href="#"></a></h3>
+									<span></span>
 								</div>
 							</div>
 						</div>
@@ -127,8 +134,8 @@
 							<div class="gallery-img">
 								<a class="image-link" href="assets/front/img/gallery/gallery3.jpg"><img src="assets/front/img/gallery/gallery3.jpg" alt="" /></a>
 								<div class="gallery-text">
-									<h3><a href="#">Snow Roll Uramaki</a></h3>
-									<span>Snow crab, avocado, cucumber, tobiko</span>
+									<h3><a href="#"></a></h3>
+									<span></span>
 								</div>
 							</div>
 						</div>
@@ -138,8 +145,8 @@
 							<div class="gallery-img">
 								<a class="image-link" href="assets/front/img/gallery/gallery4.jpg"><img src="assets/front/img/gallery/gallery4.jpg" alt="" /></a>
 								<div class="gallery-text">
-									<h3><a href="#">Snow Roll Uramaki</a></h3>
-									<span>Snow crab, avocado, cucumber, tobiko</span>
+									<h3><a href="#"></a></h3>
+									<span></span>
 								</div>
 							</div>
 						</div>

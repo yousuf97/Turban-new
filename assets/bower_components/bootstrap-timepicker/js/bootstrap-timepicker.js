@@ -1151,8 +1151,8 @@
     appendWidgetTo: 'body',
     showWidgetOnAddonClick: true,
     icons: {
-      up: 'glyphicon glyphicon-chevron-up',
-      down: 'glyphicon glyphicon-chevron-down'
+      up: 'fa fa-chevron-circle-up',
+      down: 'fa fa-chevron-circle-down'
     },
     maxHours: 24,
     explicitMode: false

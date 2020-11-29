@@ -60,25 +60,38 @@
             </div>
           </form>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4" style="
+    padding-left: 50px;
+">
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-home"></i></span>
-            <div class="media-body">
+            <div class="media-body"style="
+    padding-left: 10px;
+">
               <h3>Turban Restaurant</h3>
               <p>chennai</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-            <div class="media-body">
-              <h3>+9745563 9931</h3>
-              <p>Open 24hrs.</p>
+            <div class="media-body" style="
+    padding-left: 10px;
+">
+              <h3 style="
+    font-size: 24px;
+">+91 95 66 270268</h3>
+              
             </div>
           </div>
-          <div class="media contact-info">
+          <br>
+          <div class="media contact-info" >
             <span class="contact-info__icon"><i class="ti-email"></i></span>
-            <div class="media-body">
-              <h3>info@turbanrestaurant.com</h3>
+            <div class="media-body" style="
+    padding-left: 15px;
+">
+              <h3 style="
+    font-size: 24px;
+">info@turbanrestaurant.com</h3>
               <p>Send us your query anytime!</p>
             </div>
           </div>

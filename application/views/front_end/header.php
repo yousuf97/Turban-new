@@ -25,7 +25,11 @@
 		<link rel="stylesheet" href="assets/front/css/default.css">
 		<link rel="stylesheet" href="assets/front/css/style.css">
 		<link rel="stylesheet" href="assets/front/css/responsive.css">
+		<link rel="stylesheet" href="assets/front/css/responsive.css">
+		<link rel="stylesheet" href="assets/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.css">
+		<link rel="stylesheet" href="assets/bower_components/bootstrap-timepicker/css/bootstrap-timepicker.css">
 		<style>
+			
 		.owl-dots
 		{
 			display:none;
@@ -39,7 +43,7 @@
 			  display: block !important;  
 		}
 		.owl-prev{
-			font-size: 3em;
+			font-size: 1em;
     padding: 5px;
     position: absolute;
     top: -20px;
@@ -48,7 +52,7 @@
     border: 0;
 		}
 		.owl-next{
-			font-size: 3em;
+			font-size: 1em;
     padding: 5px;
     position: absolute;
     top: -20px;
@@ -61,6 +65,9 @@
 </style>
 	</head>
     <body>
+	<style>
+	
+	</style>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -71,21 +78,23 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xl-3 col-lg-2" style="
-						padding-bottom: 20px;
+						padding-bottom: 0px;
 					">
 							<div class="logo">
-								<a href="index.php"><img src="assets/front/img/logo/logo.png" width="20%" /></a>
+								<a href="index.php"><img src="assets/front/img/logo/logo.png" width="14%" style="
+    padding-top: 1%;
+"></a>
 							</div>
 						</div>
 						<div class="col-xl-6 col-lg-8" style="
-						padding-top: 20px;
+						padding-top: 0px;
 					">
 							<div class="main-menu text-center">
 								<nav id="mobile-menu">
 									<ul>
 										<li class="active"><a href="index.php">home </a>	
 										</li>
-										<li><a href="about">about</a></li>
+										<li><a href="about1">about</a></li>
 										<li><a href="menu">Menu</a>
 										</li>								
 										<li><a href="contact">contact</a></li>
@@ -122,7 +131,9 @@
 							</div>
 							<div class="mobile-menu"></div>
 						</div>
-						<div class="col-xl-3 col-lg-2">
+						<div class="col-xl-3 col-lg-2" style="
+    padding-bottom: 1%;
+">
 						       
 							   
                        
@@ -130,7 +141,7 @@
 								
                                <ul
 								style="
-								padding-top: 20px;">
+								padding-top: 0px;">
 			<li><a href="res" class="btn" style="padding: 10px;font-size: 12px;">Book A table</a></li>
                                    <li><a href="#" data-toggle="modal" data-target="#search-modal"><span class="ti-search"></span></a>
                                     </li>
@@ -160,7 +171,7 @@
 							<a href="home">Home</a>
 						</li>
 						<li>
-							<a href="about">About</a>
+							<a href="about1">About</a>
 						</li>
 						<li>
 							<a href="menu">Menu</a>
@@ -174,37 +185,37 @@
 					</ul>
 				</div>
 				<div class="instagram">
-					<a href="#">
+					<a>
 						<img src="assets/front/img/instagram/1.jpg" alt="">
 					</a>
-					<a href="#">
+					<a>
 						<img src="assets/front/img/instagram/2.jpg" alt="">
-					</a>
-					<a href="#">
+								</a>
+					<a>
 						<img src="assets/front/img/instagram/3.jpg" alt="">
 					</a>
-					<a href="#">
+					<a>
 						<img src="assets/front/img/instagram/4.jpg" alt="">
 					</a>
-					<a href="#">
+					<a>
 						<img src="assets/front/img/instagram/5.jpg" alt="">
 					</a>
-					<a href="#">
+					<a>
 						<img src="assets/front/img/instagram/6.jpg" alt="">
 					</a>
 				</div>
-				<div class="social-icon-right mt-20">
+				<div class="social-icon-right mt-20"style="
+    font-size: 20px;
+">
 					
-					<a href="">
-						<i class="fab fa-twitter"></i>
-					</a>
-					<a href="#">
+					
+					<a href="https://www.facebook.com/"target=_blank;>
 						<i class="fab fa-facebook-f"></i>
 					</a>
-					<a href="https://www.google.com.qa/search?trk=https://www.google.com/appserve/mkt/p/AD-FnEz3EIHCgu9qZFCCqfdU-XuA5cn0geGSOIhPzPEtxLgCuJi2_WIbsinxpXZa00crjY104ZHsCmoEXGwoGZOuxmtgy48wxw&q=Turban+Mughal+Restaurant&ludocid=2476842874072112011&lsig=AB86z5VlW_7JUU01MSoLkUdNLTGK">
+					<a href="https://www.google.com.qa/search?trk=https://www.google.com/appserve/mkt/p/AD-FnEz3EIHCgu9qZFCCqfdU-XuA5cn0geGSOIhPzPEtxLgCuJi2_WIbsinxpXZa00crjY104ZHsCmoEXGwoGZOuxmtgy48wxw&q=Turban+Mughal+Restaurant&ludocid=2476842874072112011&lsig=AB86z5VlW_7JUU01MSoLkUdNLTGK"target=_blank;>
 						<i class="fab fa-google"></i>
 					</a>
-					<a href="https://instagram.com/turbanchennai?igshid=uk2dinchscob">
+					<a href="https://instagram.com/turbanchennai?igshid=uk2dinchscob" target=_blank;>
 						<i class="fab fa-instagram"></i>
 					</a>
 				</div>
